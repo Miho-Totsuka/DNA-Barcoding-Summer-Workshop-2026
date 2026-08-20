@@ -2,59 +2,90 @@
 
 ## What I Learned
 
-On Day 5, I learned how DNA sequence data can be analyzed on a computer to investigate the identity and relationships of organisms.
+On Day 5, I learned how DNA sequence data can be analyzed using bioinformatics to investigate the identity and relationships of organisms.
 
-We used DNA Subway, a bioinformatics platform that helps organize DNA barcoding data and compare sample sequences with reference sequences from known organisms.
+We used DNA Subway, a bioinformatics platform for DNA barcoding and sequence analysis. I learned how our DNA sequences could be compared with reference sequences from known organisms and displayed as phylogenetic trees.
 
-I learned how to read a phylogenetic tree. In this kind of tree, samples that cluster closely together have more similar DNA sequences, while samples that are farther apart are less similar.
+I also learned how to interpret a phylogenetic tree. Samples that cluster close together have more similar DNA sequences, while samples separated by more branches are less similar.
 
 ## Analysis
 
-We analyzed both plant and ant DNA sequences using DNA Subway.
+We analyzed DNA sequences from both plant and ant samples using DNA Subway.
 
-For the plant dataset, our numbered samples were compared with reference plant sequences. DNA Subway generated a phylogenetic tree showing where each sample was placed relative to known species.
+For the plant dataset, our numbered samples were compared with reference DNA sequences from known plant species. DNA Subway generated a phylogenetic tree showing where each sample was positioned relative to the reference sequences.
 
-We also analyzed the ant dataset in the same way. This allowed us to compare our unknown ant sequences with reference ant sequences and see which samples grouped with known ant species.
+We then performed a similar analysis using the ant DNA sequences and compared our samples with reference sequences from known ant species.
 
 ## Methods
 
 The general process was:
 
 1. Obtain DNA sequence data from the samples.
-2. Upload and analyze the sequences in DNA Subway.
-3. Compare the sample sequences with reference sequences from known organisms.
+2. Analyze the sequences using DNA Subway.
+3. Compare our sequences with reference sequences from known organisms.
 4. Generate phylogenetic trees.
-5. Examine where each unknown sample appeared in the tree.
-6. Interpret possible identifications and relationships based on clustering patterns.
+5. Locate our numbered samples on the trees.
+6. Examine which reference sequences were closest to each sample.
+7. Interpret possible identities and relationships based on the branching patterns.
 
 ## Results
 
-For the plant analysis, the phylogenetic tree showed that our samples were distributed among a wide range of plant reference sequences. Some samples clustered near groups such as Bellevalia, Muscari, Rosa, Malva, Nepeta, Artemisia, and Achillea. This showed that the plant dataset contained multiple different kinds of plants rather than a single closely related group.
+### Plant Phylogenetic Tree
 
-![Plant Phylogenetic Tree](figures/plant_phylogenetic_tree.png)
+The plant phylogenetic tree contained our numbered samples together with reference DNA sequences from many known plant species.
 
-For the ant analysis, some samples clustered relatively close to known reference groups. For example, one sample was placed near Tetramorium caespitum, another near Lasius neoniger, and several samples were positioned close to Camponotus pennsylvanicus. Other samples grouped in less clear positions and were not matched as directly to one obvious reference species.
+Our samples were distributed throughout different parts of the tree rather than forming a single cluster. They appeared near reference sequences from several different plant groups, including `Bellevalia`, `Muscari`, `Rosa`, `Malva`, `Nepeta`, `Artemisia`, and `Achillea`.
 
-One especially interesting result was that one sample appeared near plant reference sequences rather than ant reference sequences. This suggests that the sequence may have had contamination, a labeling problem, or low-quality data, and it showed me that sequence results must be interpreted carefully.
+Because the phylogenetic tree was very long, I saved it as two images.
 
-![Ant Phylogenetic Tree](figures/ant_phylogenetic_tree.png)
+![Plant Phylogenetic Tree — Part 1](figures/01_plant_phylogenetic_tree.png)
+
+![Plant Phylogenetic Tree — Part 2](figures/02_plant_phylogenetic_tree.png)
+
+Looking at the tree helped me see how an unknown DNA sequence can be placed among reference sequences from known organisms. Instead of looking only at the name of the closest reference, I could examine the overall branching pattern and which sequences grouped together.
+
+### Ant Phylogenetic Tree
+
+We also generated a phylogenetic tree using the ant DNA sequences.
+
+The numbered samples were compared with reference sequences from several known ant groups, including `Tetramorium`, `Lasius`, and `Camponotus`.
+
+Some samples appeared close to particular reference groups, while others were positioned in less obvious locations on the tree.
+
+![Ant Phylogenetic Tree](figures/03_ant_phylogenetic_tree.png)
+
+The ant tree also contained some unexpected non-ant reference sequences. This showed me that DNA sequence analysis does not always produce a simple identification and that unusual results need to be examined carefully.
 
 ## What I Learned From the Results
 
-From these results, I learned that DNA identification is not just about obtaining a sequence. The sequence must also be compared with reference data and interpreted carefully.
+From these results, I learned that identifying an organism using DNA involves more than simply obtaining its DNA sequence.
 
-If a sample clusters close to a known reference species, that gives evidence that the sample may belong to that species or to a closely related organism. However, the result is not always perfectly clear. Some samples may not cluster strongly with a single species, and unusual placements can happen because of contamination, sequencing problems, or limited reference data.
+The sequence first needs to be compared with reference sequences from known organisms. A phylogenetic tree then provides a visual way to examine similarities and possible relationships between sequences.
 
-This helped me understand that bioinformatics is both analytical and interpretive. A phylogenetic tree is useful evidence, but it still has to be evaluated carefully.
+If an unknown sample clusters close to reference sequences from a particular species or group, this can provide evidence about its possible identity. However, being close on a tree does not automatically prove that the sample belongs to exactly that species.
+
+Sequence quality, contamination, the available reference sequences, and the method used to construct the tree can all affect the result.
+
+I therefore learned that a phylogenetic tree is something that needs to be interpreted rather than simply read as a final answer.
+
+## Connection to the Previous Days
+
+Day 5 helped connect all of the experiments we had performed throughout the workshop.
+
+The overall process was:
+
+`Biological Sample → DNA Extraction → PCR → Gel Electrophoresis → DNA Sequencing → DNA Subway → Phylogenetic Tree → Biological Interpretation`
+
+At the beginning of the workshop, we were working with physical biological samples. By the final day, those samples had become digital DNA sequence data that we could analyze on a computer.
+
+This helped me understand how experimental biology and bioinformatics are connected.
 
 ## Reflection
 
-This was one of the most interesting parts of the workshop because it connected all of the previous laboratory work to computational analysis.
+Day 5 was one of the most interesting parts of the workshop because I could finally see what happens to DNA after it has been extracted, amplified, and sequenced.
 
-Earlier in the workshop, we extracted DNA, purified it, amplified it with PCR, and examined it with gel electrophoresis. On Day 5, we finally used sequence data to investigate real biological relationships.
+Instead of only performing laboratory procedures, I was able to use DNA sequence data to investigate biological questions.
 
-The overall workflow was:
+I especially liked seeing our own numbered samples appear among reference sequences from known organisms on the phylogenetic trees. It made the connection between our laboratory experiments and the final computational analysis much clearer.
 
-`Biological Sample → DNA Extraction → PCR → Gel Electrophoresis → Sequencing → DNA Subway Analysis → Phylogenetic Tree → Biological Interpretation`
-
-This helped me understand how laboratory biology and bioinformatics work together in DNA barcoding. I especially liked seeing how sequence data could be turned into a tree that could be interpreted scientifically, while also learning that not every result is straightforward.
+I also learned that biological data are not always perfectly clear. Some samples grouped closely with known organisms, while others were more difficult to interpret. Learning how to think about uncertain or unexpected results was an important part of the analysis.
