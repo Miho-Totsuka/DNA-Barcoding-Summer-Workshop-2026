@@ -90,5 +90,5 @@ I especially liked seeing our own numbered samples appear among reference sequen
 
 I also learned that biological data are not always perfectly clear. Some samples grouped closely with known organisms, while others were more difficult to interpret. Learning how to think about uncertain or unexpected results was an important part of the analysis.
 
-![Plant Phylogenetic Tree — Part 2](figures/Cladogram-of-plants-poster.png)
+![Cladogram of Plants Poster](figures/Cladogram-of-plants-poster.png)
 Reflection Poster Made By me and my partner
