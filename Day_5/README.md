@@ -40,7 +40,7 @@ Because the phylogenetic tree was very long, I saved it as two images.
 
 ![Plant Phylogenetic Tree — Part 1](figures/01_plant_phylogenetic_tree.png)
 
-![Plant Phylogenetic Tree — Part 2](figures/02_plant_phylogenetic_tree.png)
+![Plant Phylogenetic Tree — Part 2](figures/01_plant_phylogenetic_tree_p2.png)
 
 Looking at the tree helped me see how an unknown DNA sequence can be placed among reference sequences from known organisms. Instead of looking only at the name of the closest reference, I could examine the overall branching pattern and which sequences grouped together.
 
@@ -52,7 +52,7 @@ The numbered samples were compared with reference sequences from several known a
 
 Some samples appeared close to particular reference groups, while others were positioned in less obvious locations on the tree.
 
-![Ant Phylogenetic Tree](figures/03_ant_phylogenetic_tree.png)
+![Ant Phylogenetic Tree](figures/02_ant_phylogenetic_tree.png)
 
 The ant tree also contained some unexpected non-ant reference sequences. This showed me that DNA sequence analysis does not always produce a simple identification and that unusual results need to be examined carefully.
 
