@@ -89,3 +89,6 @@ Instead of only performing laboratory procedures, I was able to use DNA sequence
 I especially liked seeing our own numbered samples appear among reference sequences from known organisms on the phylogenetic trees. It made the connection between our laboratory experiments and the final computational analysis much clearer.
 
 I also learned that biological data are not always perfectly clear. Some samples grouped closely with known organisms, while others were more difficult to interpret. Learning how to think about uncertain or unexpected results was an important part of the analysis.
+
+![Plant Phylogenetic Tree — Part 2](figures/Cladogram-of-plants-poster.png)
+Reflection Poster Made By me and my partner
