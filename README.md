@@ -69,7 +69,7 @@ I also learned how DNA sequence information can help identify organisms and how 
 
 [Day 4 README](DAY4/README.md)
 
-### Day 5
+### Day 5 - DNA Subway Analysis and Phylogenetic Trees
 
 On the final day, I used DNA Subway to analyze DNA sequence data from plant and ant samples.
 I compared our sequences with reference sequences from known organisms and examined the resulting phylogenetic trees. This helped me understand how DNA sequence data can be used to investigate the identity and relationships of organisms.
