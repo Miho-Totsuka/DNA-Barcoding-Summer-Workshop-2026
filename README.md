@@ -71,7 +71,11 @@ I also learned how DNA sequence information can help identify organisms and how 
 
 ### Day 5
 
-To be added after completing my Day 5 notes.
+On the final day, I used DNA Subway to analyze DNA sequence data from plant and ant samples.
+I compared our sequences with reference sequences from known organisms and examined the resulting phylogenetic trees. This helped me understand how DNA sequence data can be used to investigate the identity and relationships of organisms.
+I also learned that phylogenetic trees need to be interpreted carefully. Sequence quality, contamination, available reference sequences, and the analysis method can affect the results, so a close position on a tree does not automatically prove the identity of a sample.
+The five-day workshop helped me understand the connection between experimental biology and bioinformatics:
+Biological Sample → DNA Extraction → PCR → Gel Electrophoresis → DNA Sequencing → DNA Subway → Phylogenetic Tree → Biological Interpretation
 
 [Day 5 README](DAY5/README.md)
 
